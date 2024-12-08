@@ -1,0 +1,6 @@
+Feature: Login Guru99 Demo
+    Scenario: Logo presence on Guru99 Demo
+      Given user launch chrome browser
+      When user navigated to Guru99 Demo Login
+      When user login using username and password
+      Then user was able to navigate to Homepage successfully
